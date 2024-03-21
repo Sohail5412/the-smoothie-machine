@@ -1,0 +1,156 @@
+/* Global styles for the body */
+body {
+    font-family: Arial, sans-serif; /* Font family */
+    margin: 10px; /* Margin */
+    padding: 0; /* Padding */
+    display: flex; /* Flex container */
+    flex-direction: column; /* Main axis direction */
+    align-items: center; /* Alignment along the cross axis */
+    height: auto; /* Automatic height */
+    background-color: #1B1B32; /* Background color */
+}
+
+
+
+
+
+/* Styles for the main content container */
+.container {
+    max-width: 600px; /* Maximum width */
+    margin: 0 auto; /* Margin */
+    padding: 20px; /* Padding */
+    background-color: #3B3B4F; /* Background color */
+    border-radius: 8px; /* Border radius */
+    box-shadow: 0 0 10px white; /* Box shadow */
+    margin-top: 30px; /* Margin top */
+}
+.containera {
+    max-width: 600px; /* Maximum width */
+    margin: 0 auto; /* Margin */
+    padding: 20px; /* Padding */
+    background-color: #3B3B4F; /* Background color */
+    border-radius: 8px; /* Border radius */
+    box-shadow: 0 0 10px white; /* Box shadow */
+    margin-top: 30px; /* Margin top */
+}
+/* Styles for the heading */
+h1 {
+    text-align: center; /* Text alignment */
+    color: white; /* Text color */
+}
+
+/* Styles for labels */
+label {
+    color: white; /* Text color */
+    font-size: 20px; /* Font size */
+    display: block; /* Block display */
+    margin-right: 50px; /* Margin right */
+}
+
+/* Styles for selects, checkboxes, and buttons */
+select, input[type="checkbox"], button {
+    margin-bottom: 5px; /* Margin bottom */
+    height: 30px; /* Height */
+    color: #1B1B32; /* Text color */
+}
+
+/* Styles for the size dropdown */
+#size {
+    font-size: 16px; /* Font size */
+}
+
+/* Spacer */
+.space {
+    height: 30px; /* Height */
+}
+
+/* Styles for the smoothie preview */
+#smoothiePreview {
+    margin-top: 20px; /* Margin top */
+}
+
+#smoothiePreview h2 {
+    margin-bottom: 10px; /* Margin bottom */
+}
+
+#smoothieDescription {
+    font-style: italic; /* Italic font style */
+}
+
+/* Styles for dashboard buttons */
+.dashboard-button {
+    background-color: #0A0A23; /* Background color */
+    color: white; /* Text color */
+    border: none; /* No border */
+    margin-top: 5px; /* Margin top */
+    padding: 10px 20px; /* Padding */
+    text-align: center; /* Text alignment */
+    text-decoration: none; /* No text decoration */
+    font-size: 16px; /* Font size */
+    margin: 4px 2px; /* Margin */
+    cursor: pointer; /* Cursor */
+    border-radius: 5px; /* Border radius */
+    border: 1px solid white; /* Border */
+}
+
+/* Hover effect for dashboard buttons */
+.dashboard-button:hover {
+    background-color: #3B3B4F; /* Background color */
+}
+
+/* Container for displaying smoothie output */
+
+.result-container {
+    display: none; /* Initially hide */
+    flex-direction: column; /* Column direction */
+    align-items: center; /* Alignment along the cross axis */
+    margin-top: 20px; /* Margin top */
+}
+
+/* Container for result */
+.res-container {
+    flex: 1; /* Flex */
+    margin: 10px; /* Margin */
+    color: #C39759; /* Text color */
+    padding: 10px; /* Padding */
+    border: 2px solid #1B1B32; /* Border */
+    border-radius: 10px; /* Border radius */
+    background-color: #3B3B4F; /* Background color */
+    box-shadow: 0 0 10px #1B1B32; /* Box shadow */
+}
+
+/* Additional styles for select dropdown */
+select {
+    height: 30px; /* Height */
+    background-color: #3B3B4F; /* Background color */
+    color: white; /* Text color */
+    border-radius: 8px; /* Border radius */
+}
+/* Styles for the smoothie preview */
+#smoothiePreview {
+    margin-top: 20px; /* Margin top */
+    text-align: center; /* Text alignment */
+}
+
+/* Styles for the bill container */
+#billContainer {
+    margin-top: 20px; /* Margin top */
+    text-align: center; /* Text alignment */
+}
+
+#billContainer h2 {
+    color: white; /* Text color */
+}
+
+#billContent {
+    color: white; /* Text color */
+}
+.smoothie-image {
+    width: 500px; /* Set width */
+    height: 500px; /* Set height */
+    background-position: center; /* Center the background image */
+    background-size: cover; /* Scale the background image to cover the entire container */
+    box-shadow: 0 0 10px white; /* Box shadow */
+
+    border-radius: 10px; /* Adjust border-radius as needed */
+}

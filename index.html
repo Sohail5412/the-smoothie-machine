@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta tags for character set and viewport -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title of the webpage -->
+    <title>Smoothie Machine</title>
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Container for the main content -->
+    <div class="container">
+        <!-- Heading of the webpage -->
+        <h1>Smoothie Machine</h1>
+        <!-- Form for selecting smoothie options -->
+        <form id="smoothieForm">
+            <!-- Label and dropdown for selecting flavor -->
+            <label for="flavor">Select Flavor:</label>
+            <select id="flavor">
+                <option value="strawberry">Strawberry</option>
+                <option value="banana">Banana</option>
+                <option value="mango">Mango</option>
+                <option value="blueberry">Blueberry</option>
+                <option value="pineapple">Pineapple</option>
+                <option value="kiwi">Kiwi</option>
+                <option value="peach">Peach</option>
+            </select>
+            <!-- Label and dropdown for selecting size -->
+            <label for="size">Select Size:</label>
+            <select id="size">
+                <option value="small">Small</option>
+                <option value="medium">Medium</option>
+                <option value="large">Large</option>
+            </select>
+            <!-- Label and checkboxes for selecting toppings -->
+            <label for="toppings">Select Toppings:</label>
+            <label for="topping1">Protein Powder</label>
+            <input type="checkbox" id="topping1" name="topping" value="Protein Powder">
+            <label for="topping2">Honey</label>
+            <input type="checkbox" id="topping2" name="topping" value="Honey">
+            <label for="topping3">Yogurt</label>  
+            <input type="checkbox" id="topping3" name="topping" value="Yogurt">
+            <!-- Spacer -->
+            <div class="space"></div>
+            <!-- Button to order the smoothie -->
+            <button class="dashboard-button" type="button" onclick="orderSmoothie()">Order Smoothie</button>
+            
+        </form>
+       
+        
+    </div>
+    <!-- Container for displaying smoothie output -->
+    <div id="todayTomorrowContainer" class="result-container">
+       
+        <!-- Bill for the customer -->
+        <div id="billContainer">
+            <h2>Your Bill:</h2>
+            <div id="billContent"></div>
+        </div>
+        <!-- Container for smoothie image -->
+        <div id="randommessage" class="res-container"></div>
+
+        
+            <div id="smoothiePreview">
+                <div id="smoothieImage" class="smoothie-image"></div>
+            </div>
+            <div id="smoothieOutput" class="res-container"></div>
+            
+            <!-- Button to reset the form -->
+            <button onclick="resetForm()" class="dashboard-button">New</button>
+        </div>
+   
+    <!-- Link to external JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>
